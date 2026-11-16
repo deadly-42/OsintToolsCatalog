@@ -8,37 +8,22 @@
 python -m pip install .
 ```
 
-## Запуск
+## Запуск (главное меню)
 
 ```bash
 python -m osinttoolscatalog
 ```
 
-Меню: введите цифру от 0 до 10.
-
-| № | Категория |
-|---|---|
-| 1 | Поиск по юзернейму (+ предложение запустить мини-поиск) |
-| 2 | Поиск по email: валидация, репутация, заголовки, SPF/DKIM/DMARC |
-| 3 | Поиск по IP / домену |
-| 4 | Поиск по адресу / координатам: карты, спутники, геокодинг |
-| 5 | Анализ номера телефона: формат, оператор, регион, спам-рейтинг |
-| 6 | Изображения, видео и метаданные |
-| 7 | Соцсети и публичные публикации |
-| 8 | Компании и реестры |
-| 9 | Документы, дорки и архивы |
-| 10 | Фреймворки и дистрибутивы OSINT |
-| 0 | Выход |
+Откроется меню: введите цифру от 0 до 10 (0 — выход).
 
 ## Команды
 
 ```bash
 python -m osinttoolscatalog list                 # список категорий
 python -m osinttoolscatalog list 3               # инструменты категории 3
-python -m osinttoolscatalog search ник           # мини-поиск по нику (127 сайтов)
+python -m osinttoolscatalog search ник           # мини-поиск по нику
 python -m osinttoolscatalog search ник --details --all -o results.json
-python -m osinttoolscatalog check-links          # проверить, что ссылки каталога живы
-python -m osinttoolscatalog check-links 5
+python -m osinttoolscatalog check-links          # проверить ссылки каталога
 python -m osinttoolscatalog version
 ```
 
