@@ -1,0 +1,1742 @@
+[
+ {
+  "id": 1,
+  "title": "Поиск по юзернейму",
+  "description": "Проверка ника на сотнях сайтов, сбор публичных профилей",
+  "tools": [
+   {
+    "name": "Sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "desc": "поиск ника на сотнях сайтов, CLI"
+   },
+   {
+    "name": "Maigret",
+    "url": "https://github.com/soxoj/maigret",
+    "desc": "поиск аккаунтов по нику на 2500+ сайтов"
+   },
+   {
+    "name": "WhatsMyName (веб)",
+    "url": "https://whatsmyname.app",
+    "desc": "веб-интерфейс проверки ника"
+   },
+   {
+    "name": "WhatsMyName (база)",
+    "url": "https://github.com/WebBreacher/WhatsMyName",
+    "desc": "открытая база правил проверки сайтов"
+   },
+   {
+    "name": "WhatsMyName-Python",
+    "url": "https://github.com/C3n7ral051nt4g3ncy/WhatsMyName-Python",
+    "desc": "CLI-клиент на базе WhatsMyName"
+   },
+   {
+    "name": "Blackbird",
+    "url": "https://github.com/p1ngul1n0/blackbird",
+    "desc": "быстрый поиск аккаунтов по нику"
+   },
+   {
+    "name": "Social Analyzer",
+    "url": "https://github.com/qeeqbox/social-analyzer",
+    "desc": "анализ и поиск профилей на ~1000 сайтов"
+   },
+   {
+    "name": "Nexfil",
+    "url": "https://github.com/thewhiteh4t/nexfil",
+    "desc": "быстрый поиск ника на 350+ сайтах"
+   },
+   {
+    "name": "Socialscan",
+    "url": "https://github.com/iojw/socialscan",
+    "desc": "проверка занятости ника на платформах"
+   },
+   {
+    "name": "Snoop Project",
+    "url": "https://github.com/snooppr/snoop",
+    "desc": "поиск ника, акцент на сайты СНГ"
+   },
+   {
+    "name": "Mr.Holmes",
+    "url": "https://github.com/Lucksi/Mr.Holmes",
+    "desc": "OSINT-комбайн по никам и доменам"
+   },
+   {
+    "name": "Namechk",
+    "url": "https://namechk.com",
+    "desc": "проверка ника и домена на сотнях сервисов"
+   },
+   {
+    "name": "KnowEm",
+    "url": "https://knowem.com",
+    "desc": "проверка занятости ника на 500+ сетях"
+   },
+   {
+    "name": "CheckUsernames",
+    "url": "https://checkusernames.com",
+    "desc": "проверка ника на 170+ соцсетях"
+   },
+   {
+    "name": "Instant Username Search",
+    "url": "https://instantusername.com",
+    "desc": "мгновенная проверка ника"
+   },
+   {
+    "name": "BrandSnag",
+    "url": "https://brandsnag.com",
+    "desc": "проверка ника и домена"
+   },
+   {
+    "name": "NameCheckup",
+    "url": "https://namecheckup.com",
+    "desc": "проверка ника и домена"
+   },
+   {
+    "name": "Lampyre",
+    "url": "https://lampyre.io",
+    "desc": "OSINT-платформа с модулями по никам"
+   },
+   {
+    "name": "SpiderFoot",
+    "url": "https://www.spiderfoot.net",
+    "desc": "автоматизация OSINT, модули по никам"
+   },
+   {
+    "name": "Maltego",
+    "url": "https://www.maltego.com",
+    "desc": "граф связей, трансформы по никам"
+   },
+   {
+    "name": "GitHub: поиск пользователей",
+    "url": "https://github.com/search?type=users",
+    "desc": "поиск по профилям GitHub"
+   },
+   {
+    "name": "Reddit: поиск пользователей",
+    "url": "https://www.reddit.com/search/?type=people",
+    "desc": "поиск по профилям Reddit"
+   },
+   {
+    "name": "Keybase",
+    "url": "https://keybase.io",
+    "desc": "подтверждённые связи аккаунтов"
+   },
+   {
+    "name": "Gravatar",
+    "url": "https://gravatar.com",
+    "desc": "публичные профили Gravatar"
+   },
+   {
+    "name": "Wayback Machine",
+    "url": "https://web.archive.org",
+    "desc": "архивные копии профилей"
+   },
+   {
+    "name": "Google",
+    "url": "https://www.google.com",
+    "desc": "ручной поиск: \"ник\" в кавычках"
+   },
+   {
+    "name": "Bing",
+    "url": "https://www.bing.com",
+    "desc": "ручной поиск по нику"
+   },
+   {
+    "name": "Yandex",
+    "url": "https://yandex.com",
+    "desc": "сильнее по рунету"
+   },
+   {
+    "name": "DuckDuckGo",
+    "url": "https://duckduckgo.com",
+    "desc": "ручной поиск по нику"
+   },
+   {
+    "name": "Brave Search",
+    "url": "https://search.brave.com",
+    "desc": "независимый поисковый индекс"
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "title": "Поиск по email",
+  "description": "Проверка адреса: валидность, репутация, заголовки писем, защита домена",
+  "tools": [
+   {
+    "name": "Have I Been Pwned",
+    "url": "https://haveibeenpwned.com",
+    "desc": "проверка своего адреса на попадание в утечки"
+   },
+   {
+    "name": "Firefox Monitor",
+    "url": "https://monitor.mozilla.org",
+    "desc": "уведомления об утечках (на базе HIBP)"
+   },
+   {
+    "name": "EmailRep",
+    "url": "https://emailrep.io",
+    "desc": "репутация адреса, риск фишинга/спама"
+   },
+   {
+    "name": "MXToolbox",
+    "url": "https://mxtoolbox.com",
+    "desc": "DNS/MX/SPF/блэклисты"
+   },
+   {
+    "name": "MXToolbox: анализ заголовков",
+    "url": "https://mxtoolbox.com/EmailHeaders.aspx",
+    "desc": "разбор заголовков письма"
+   },
+   {
+    "name": "Google Messageheader",
+    "url": "https://toolbox.googleapps.com/apps/messageheader/",
+    "desc": "анализ заголовков от Google"
+   },
+   {
+    "name": "Mailheader.org",
+    "url": "https://mailheader.org",
+    "desc": "разбор заголовков письма"
+   },
+   {
+    "name": "Mail-Tester",
+    "url": "https://www.mail-tester.com",
+    "desc": "проверка письма на спам-признаки"
+   },
+   {
+    "name": "dmarcian",
+    "url": "https://dmarcian.com",
+    "desc": "проверка SPF/DKIM/DMARC"
+   },
+   {
+    "name": "EasyDMARC",
+    "url": "https://easydmarc.com",
+    "desc": "проверка и мониторинг DMARC"
+   },
+   {
+    "name": "Hardenize",
+    "url": "https://www.hardenize.com",
+    "desc": "аудит почты и TLS домена"
+   },
+   {
+    "name": "CheckTLS",
+    "url": "https://www.checktls.com",
+    "desc": "проверка TLS почтового сервера"
+   },
+   {
+    "name": "Google Postmaster Tools",
+    "url": "https://postmaster.google.com",
+    "desc": "репутация домена-отправителя в Gmail"
+   },
+   {
+    "name": "Spamhaus",
+    "url": "https://www.spamhaus.org",
+    "desc": "блэклисты спама"
+   },
+   {
+    "name": "MultiRBL",
+    "url": "https://multirbl.valli.org",
+    "desc": "проверка IP по десяткам блэклистов"
+   },
+   {
+    "name": "Cisco Talos",
+    "url": "https://talosintelligence.com",
+    "desc": "репутация IP/доменов"
+   },
+   {
+    "name": "Barracuda Central",
+    "url": "https://www.barracudacentral.org",
+    "desc": "репутация и блэклист Barracuda"
+   },
+   {
+    "name": "Emailable",
+    "url": "https://emailable.com",
+    "desc": "проверка существования ящика"
+   },
+   {
+    "name": "ZeroBounce",
+    "url": "https://www.zerobounce.net",
+    "desc": "валидация адресов"
+   },
+   {
+    "name": "NeverBounce",
+    "url": "https://neverbounce.com",
+    "desc": "валидация адресов"
+   },
+   {
+    "name": "Kickbox",
+    "url": "https://kickbox.com",
+    "desc": "валидация и оценка доставляемости"
+   },
+   {
+    "name": "Mailboxlayer",
+    "url": "https://mailboxlayer.com",
+    "desc": "API проверки адресов"
+   },
+   {
+    "name": "Abstract Email Validation",
+    "url": "https://www.abstractapi.com/api/email-verification-validation-api",
+    "desc": "API проверки адресов"
+   },
+   {
+    "name": "Verifalia",
+    "url": "https://verifalia.com",
+    "desc": "валидация адресов"
+   },
+   {
+    "name": "Bouncer",
+    "url": "https://www.usebouncer.com",
+    "desc": "валидация адресов"
+   },
+   {
+    "name": "DeBounce",
+    "url": "https://debounce.io",
+    "desc": "валидация и поиск одноразовых адресов"
+   },
+   {
+    "name": "Email Hippo",
+    "url": "https://emailhippo.com",
+    "desc": "валидация и оценка риска адреса"
+   },
+   {
+    "name": "Clearout",
+    "url": "https://clearout.io",
+    "desc": "валидация адресов"
+   },
+   {
+    "name": "BriteVerify",
+    "url": "https://www.briteverify.com",
+    "desc": "валидация адресов"
+   },
+   {
+    "name": "disposable-email-domains",
+    "url": "https://github.com/disposable-email-domains/disposable-email-domains",
+    "desc": "список одноразовых почтовых доменов"
+   },
+   {
+    "name": "PhishTank",
+    "url": "https://phishtank.org",
+    "desc": "база фишинговых ссылок"
+   },
+   {
+    "name": "OpenPhish",
+    "url": "https://openphish.com",
+    "desc": "фиды фишинговых URL"
+   },
+   {
+    "name": "Apache SpamAssassin",
+    "url": "https://spamassassin.apache.org",
+    "desc": "открытый спам-фильтр, правила"
+   },
+   {
+    "name": "DNSChecker",
+    "url": "https://dnschecker.org",
+    "desc": "проверка DNS-записей домена"
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "title": "Поиск по IP / домену",
+  "description": "Сетевая разведка: хосты, DNS, сертификаты, технологии, репутация",
+  "tools": [
+   {
+    "name": "Shodan",
+    "url": "https://www.shodan.io",
+    "desc": "поисковик по устройствам и сервисам в сети"
+   },
+   {
+    "name": "Censys",
+    "url": "https://search.censys.io",
+    "desc": "поиск по хостам и сертификатам"
+   },
+   {
+    "name": "ZoomEye",
+    "url": "https://www.zoomeye.org",
+    "desc": "поисковик по киберпространству"
+   },
+   {
+    "name": "FOFA",
+    "url": "https://en.fofa.info",
+    "desc": "поиск по активам в интернете"
+   },
+   {
+    "name": "Netlas",
+    "url": "https://netlas.io",
+    "desc": "поиск по хостам и DNS"
+   },
+   {
+    "name": "LeakIX",
+    "url": "https://leakix.net",
+    "desc": "незащищённые сервисы и утечки конфигураций"
+   },
+   {
+    "name": "Hunter.how",
+    "url": "https://hunter.how",
+    "desc": "поиск по интернет-активам"
+   },
+   {
+    "name": "GreyNoise",
+    "url": "https://www.greynoise.io",
+    "desc": "шум интернет-сканеров vs целевые атаки"
+   },
+   {
+    "name": "AbuseIPDB",
+    "url": "https://www.abuseipdb.com",
+    "desc": "репутация IP, жалобы"
+   },
+   {
+    "name": "IPinfo",
+    "url": "https://ipinfo.io",
+    "desc": "геолокация, ASN, владелец диапазона"
+   },
+   {
+    "name": "ip-api",
+    "url": "https://ip-api.com",
+    "desc": "бесплатное API геолокации IP"
+   },
+   {
+    "name": "MaxMind GeoIP",
+    "url": "https://www.maxmind.com",
+    "desc": "базы геолокации IP"
+   },
+   {
+    "name": "BGPView",
+    "url": "https://bgpview.io",
+    "desc": "ASN, префиксы, пиры"
+   },
+   {
+    "name": "Hurricane Electric BGP",
+    "url": "https://bgp.he.net",
+    "desc": "BGP-инструментарий"
+   },
+   {
+    "name": "RIPEstat",
+    "url": "https://stat.ripe.net",
+    "desc": "статистика по IP, ASN, маршрутам"
+   },
+   {
+    "name": "ARIN WHOIS",
+    "url": "https://search.arin.net",
+    "desc": "WHOIS для Северной Америки"
+   },
+   {
+    "name": "ICANN Lookup",
+    "url": "https://lookup.icann.org",
+    "desc": "официальный WHOIS/RDAP"
+   },
+   {
+    "name": "Robtex",
+    "url": "https://www.robtex.com",
+    "desc": "связи доменов, IP, DNS"
+   },
+   {
+    "name": "SecurityTrails",
+    "url": "https://securitytrails.com",
+    "desc": "история DNS, поддомены"
+   },
+   {
+    "name": "DomainTools Whois",
+    "url": "https://whois.domaintools.com",
+    "desc": "WHOIS и история"
+   },
+   {
+    "name": "Whoxy",
+    "url": "https://www.whoxy.com",
+    "desc": "WHOIS-данные и обратный поиск"
+   },
+   {
+    "name": "crt.sh",
+    "url": "https://crt.sh",
+    "desc": "поиск по сертификатам (CT-логи)"
+   },
+   {
+    "name": "VirusTotal",
+    "url": "https://www.virustotal.com",
+    "desc": "репутация файлов, доменов, IP, URL"
+   },
+   {
+    "name": "URLScan",
+    "url": "https://urlscan.io",
+    "desc": "сканирование и скриншоты сайтов"
+   },
+   {
+    "name": "DNSDumpster",
+    "url": "https://dnsdumpster.com",
+    "desc": "карта DNS и поддоменов"
+   },
+   {
+    "name": "ViewDNS.info",
+    "url": "https://viewdns.info",
+    "desc": "набор DNS/WHOIS-утилит"
+   },
+   {
+    "name": "BuiltWith",
+    "url": "https://builtwith.com",
+    "desc": "технологии сайта"
+   },
+   {
+    "name": "Wappalyzer",
+    "url": "https://www.wappalyzer.com",
+    "desc": "определение стека сайта"
+   },
+   {
+    "name": "Netcraft Site Report",
+    "url": "https://sitereport.netcraft.com",
+    "desc": "хостинг и история сайта"
+   },
+   {
+    "name": "Web-Check",
+    "url": "https://web-check.xyz",
+    "desc": "комплексный анализ сайта"
+   },
+   {
+    "name": "AlienVault OTX",
+    "url": "https://otx.alienvault.com",
+    "desc": "индикаторы угроз по IP/домену"
+   },
+   {
+    "name": "Pulsedive",
+    "url": "https://pulsedive.com",
+    "desc": "threat intelligence по IP/домену"
+   },
+   {
+    "name": "PublicWWW",
+    "url": "https://publicwww.com",
+    "desc": "поиск по исходному коду сайтов"
+   },
+   {
+    "name": "URLhaus",
+    "url": "https://urlhaus.abuse.ch",
+    "desc": "база вредоносных URL"
+   },
+   {
+    "name": "theHarvester",
+    "url": "https://github.com/laramies/theHarvester",
+    "desc": "сбор поддоменов и хостов из открытых источников"
+   },
+   {
+    "name": "OWASP Amass",
+    "url": "https://github.com/owasp-amass/amass",
+    "desc": "картирование поверхности атаки"
+   },
+   {
+    "name": "Subfinder",
+    "url": "https://github.com/projectdiscovery/subfinder",
+    "desc": "поиск поддоменов"
+   },
+   {
+    "name": "Sublist3r",
+    "url": "https://github.com/aboul3la/Sublist3r",
+    "desc": "перебор поддоменов"
+   },
+   {
+    "name": "DNSRecon",
+    "url": "https://github.com/darkoperator/dnsrecon",
+    "desc": "DNS-разведка"
+   },
+   {
+    "name": "Nmap",
+    "url": "https://nmap.org",
+    "desc": "сканер портов и сервисов (только свои/разрешённые цели)"
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "title": "Поиск по адресу / координатам",
+  "description": "Карты, спутниковые снимки, геокодинг, гео-данные (без поиска жильцов)",
+  "tools": [
+   {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org",
+    "desc": "открытая карта мира"
+   },
+   {
+    "name": "Nominatim",
+    "url": "https://nominatim.openstreetmap.org",
+    "desc": "геокодер OSM: адрес ↔ координаты"
+   },
+   {
+    "name": "Overpass Turbo",
+    "url": "https://overpass-turbo.eu",
+    "desc": "запросы к данным OSM"
+   },
+   {
+    "name": "Google Maps",
+    "url": "https://maps.google.com",
+    "desc": "карты и Street View"
+   },
+   {
+    "name": "Google Earth",
+    "url": "https://earth.google.com",
+    "desc": "спутниковые снимки, 3D"
+   },
+   {
+    "name": "Bing Maps",
+    "url": "https://www.bing.com/maps",
+    "desc": "карты, снимки Bird's Eye"
+   },
+   {
+    "name": "Яндекс Карты",
+    "url": "https://yandex.ru/maps",
+    "desc": "карты и панорамы по СНГ"
+   },
+   {
+    "name": "2ГИС",
+    "url": "https://2gis.ru",
+    "desc": "карты и организации по городам"
+   },
+   {
+    "name": "Apple Maps",
+    "url": "https://maps.apple.com",
+    "desc": "карты Apple"
+   },
+   {
+    "name": "HERE WeGo",
+    "url": "https://wego.here.com",
+    "desc": "карты и маршруты HERE"
+   },
+   {
+    "name": "Mapy.cz",
+    "url": "https://mapy.cz",
+    "desc": "детальные карты и туристические маршруты"
+   },
+   {
+    "name": "Wikimapia",
+    "url": "https://wikimapia.org",
+    "desc": "краудсорсинговые описания объектов"
+   },
+   {
+    "name": "Mapillary",
+    "url": "https://www.mapillary.com",
+    "desc": "краудсорсинговые уличные фото"
+   },
+   {
+    "name": "KartaView",
+    "url": "https://kartaview.org",
+    "desc": "открытые уличные фото"
+   },
+   {
+    "name": "Sentinel Hub EO Browser",
+    "url": "https://apps.sentinel-hub.com/eo-browser/",
+    "desc": "спутниковые снимки Sentinel/Landsat"
+   },
+   {
+    "name": "Copernicus Data Space",
+    "url": "https://dataspace.copernicus.eu",
+    "desc": "архив спутниковых данных ЕС"
+   },
+   {
+    "name": "NASA Worldview",
+    "url": "https://worldview.earthdata.nasa.gov",
+    "desc": "ежедневные снимки Земли"
+   },
+   {
+    "name": "NASA FIRMS",
+    "url": "https://firms.modaps.eosdis.nasa.gov",
+    "desc": "карта пожаров по спутникам"
+   },
+   {
+    "name": "USGS EarthExplorer",
+    "url": "https://earthexplorer.usgs.gov",
+    "desc": "архив снимков Landsat и др."
+   },
+   {
+    "name": "Zoom Earth",
+    "url": "https://zoom.earth",
+    "desc": "почти реальное время: облака, шторма"
+   },
+   {
+    "name": "Esri Wayback Imagery",
+    "url": "https://livingatlas.arcgis.com/wayback/",
+    "desc": "архив версий спутниковых снимков"
+   },
+   {
+    "name": "Satellites.pro",
+    "url": "https://satellites.pro",
+    "desc": "агрегатор спутниковых карт"
+   },
+   {
+    "name": "SunCalc",
+    "url": "https://www.suncalc.org",
+    "desc": "положение солнца: проверка времени/места на фото"
+   },
+   {
+    "name": "What3words",
+    "url": "https://what3words.com",
+    "desc": "адреса из трёх слов"
+   },
+   {
+    "name": "GeoNames",
+    "url": "https://www.geonames.org",
+    "desc": "база географических названий"
+   },
+   {
+    "name": "OpenAddresses",
+    "url": "https://openaddresses.io",
+    "desc": "открытая база адресов"
+   },
+   {
+    "name": "Overture Maps",
+    "url": "https://overturemaps.org",
+    "desc": "открытые картографические данные"
+   },
+   {
+    "name": "Geoapify",
+    "url": "https://www.geoapify.com",
+    "desc": "геокодинг и гео-API"
+   },
+   {
+    "name": "LocationIQ",
+    "url": "https://locationiq.com",
+    "desc": "геокодинг и гео-API"
+   },
+   {
+    "name": "Mapbox",
+    "url": "https://www.mapbox.com",
+    "desc": "карты и геокодинг API"
+   },
+   {
+    "name": "OpenTopoMap",
+    "url": "https://opentopomap.org",
+    "desc": "топографическая карта"
+   },
+   {
+    "name": "CalTopo",
+    "url": "https://caltopo.com",
+    "desc": "топокарты и измерения"
+   },
+   {
+    "name": "PeakFinder",
+    "url": "https://www.peakfinder.com",
+    "desc": "определение гор по панораме"
+   },
+   {
+    "name": "OpenRailwayMap",
+    "url": "https://www.openrailwaymap.org",
+    "desc": "карта железных дорог"
+   },
+   {
+    "name": "MarineTraffic",
+    "url": "https://www.marinetraffic.com",
+    "desc": "положение судов"
+   },
+   {
+    "name": "Flightradar24",
+    "url": "https://www.flightradar24.com",
+    "desc": "положение самолётов"
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "title": "Анализ номера телефона",
+  "description": "Формат, оператор, регион, тип линии, спам-репутация (не владелец номера)",
+  "tools": [
+   {
+    "name": "libphonenumber (демо)",
+    "url": "https://libphonenumber.appspot.com",
+    "desc": "разбор и валидация номера онлайн"
+   },
+   {
+    "name": "libphonenumber (Google)",
+    "url": "https://github.com/google/libphonenumber",
+    "desc": "эталонная библиотека для номеров"
+   },
+   {
+    "name": "python-phonenumbers",
+    "url": "https://pypi.org/project/phonenumbers/",
+    "desc": "порт libphonenumber для Python"
+   },
+   {
+    "name": "PhoneInfoga",
+    "url": "https://github.com/sundowndev/phoneinfoga",
+    "desc": "формат, оператор, регион номера"
+   },
+   {
+    "name": "NumVerify",
+    "url": "https://numverify.com",
+    "desc": "API валидации номеров"
+   },
+   {
+    "name": "Twilio Lookup",
+    "url": "https://www.twilio.com/lookup",
+    "desc": "API: оператор и тип линии"
+   },
+   {
+    "name": "Veriphone",
+    "url": "https://veriphone.io",
+    "desc": "API валидации номеров"
+   },
+   {
+    "name": "Abstract Phone Validation",
+    "url": "https://www.abstractapi.com/api/phone-validation-api",
+    "desc": "API валидации номеров"
+   },
+   {
+    "name": "Vonage",
+    "url": "https://www.vonage.com",
+    "desc": "Number Insight API"
+   },
+   {
+    "name": "Telnyx",
+    "url": "https://telnyx.com",
+    "desc": "Number Lookup API"
+   },
+   {
+    "name": "Telesign",
+    "url": "https://www.telesign.com",
+    "desc": "API оценки номера"
+   },
+   {
+    "name": "MessageBird",
+    "url": "https://messagebird.com",
+    "desc": "Lookup API"
+   },
+   {
+    "name": "Plivo",
+    "url": "https://www.plivo.com",
+    "desc": "Number Lookup API"
+   },
+   {
+    "name": "NumLookupAPI",
+    "url": "https://numlookupapi.com",
+    "desc": "API валидации номеров"
+   },
+   {
+    "name": "IPQualityScore",
+    "url": "https://www.ipqualityscore.com",
+    "desc": "оценка риска номера"
+   },
+   {
+    "name": "Phone Validator",
+    "url": "https://www.phonevalidator.com",
+    "desc": "проверка типа номера"
+   },
+   {
+    "name": "FreeCarrierLookup",
+    "url": "https://freecarrierlookup.com",
+    "desc": "определение оператора"
+   },
+   {
+    "name": "HLR Lookup",
+    "url": "https://www.hlrlookup.com",
+    "desc": "статус номера в сети оператора"
+   },
+   {
+    "name": "NumberingPlans",
+    "url": "https://www.numberingplans.com",
+    "desc": "планы нумерации и операторы мира"
+   },
+   {
+    "name": "CountryCode.org",
+    "url": "https://countrycode.org",
+    "desc": "телефонные коды стран"
+   },
+   {
+    "name": "AllAreaCodes",
+    "url": "https://www.allareacodes.com",
+    "desc": "коды регионов (США/Канада)"
+   },
+   {
+    "name": "Россвязь: коды DEF",
+    "url": "https://www.rossvyaz.gov.ru",
+    "desc": "реестр кодов и операторов РФ"
+   },
+   {
+    "name": "tellows",
+    "url": "https://www.tellows.com",
+    "desc": "рейтинг номеров по жалобам на спам"
+   },
+   {
+    "name": "800notes",
+    "url": "https://800notes.com",
+    "desc": "жалобы на нежелательные звонки"
+   },
+   {
+    "name": "Should I Answer",
+    "url": "https://www.shouldianswer.com",
+    "desc": "оценка нежелательных номеров"
+   },
+   {
+    "name": "WhoCallsMe",
+    "url": "https://whocallsme.com",
+    "desc": "жалобы на звонки"
+   },
+   {
+    "name": "Nomorobo",
+    "url": "https://www.nomorobo.com",
+    "desc": "защита от спам-звонков"
+   },
+   {
+    "name": "YouMail",
+    "url": "https://www.youmail.com",
+    "desc": "блокировка спама и роботов"
+   },
+   {
+    "name": "Hiya",
+    "url": "https://hiya.com",
+    "desc": "антиспам для звонков"
+   },
+   {
+    "name": "FTC Do Not Call",
+    "url": "https://www.donotcall.gov",
+    "desc": "реестр отказа от звонков и жалобы (США)"
+   },
+   {
+    "name": "Не беритрубку",
+    "url": "https://neberitrubku.ru",
+    "desc": "рейтинг номеров по жалобам (РФ)"
+   },
+   {
+    "name": "Zvonili.com",
+    "url": "https://zvonili.com",
+    "desc": "жалобы на звонки (РФ)"
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "title": "Изображения, видео и метаданные",
+  "description": "Обратный поиск картинок, EXIF, проверка подлинности, фактчекинг",
+  "tools": [
+   {
+    "name": "Google Lens",
+    "url": "https://lens.google.com",
+    "desc": "обратный поиск по изображению"
+   },
+   {
+    "name": "Google Images",
+    "url": "https://images.google.com",
+    "desc": "поиск по картинке и по тексту"
+   },
+   {
+    "name": "TinEye",
+    "url": "https://tineye.com",
+    "desc": "обратный поиск, поиск оригинала"
+   },
+   {
+    "name": "Яндекс Картинки",
+    "url": "https://yandex.com/images/",
+    "desc": "сильный обратный поиск, особенно по рунету"
+   },
+   {
+    "name": "Bing Visual Search",
+    "url": "https://www.bing.com/visualsearch",
+    "desc": "обратный поиск Microsoft"
+   },
+   {
+    "name": "Baidu Images",
+    "url": "https://image.baidu.com",
+    "desc": "обратный поиск по китайскому сегменту"
+   },
+   {
+    "name": "ImgOps",
+    "url": "https://imgops.com",
+    "desc": "запуск картинки через много сервисов сразу"
+   },
+   {
+    "name": "Jeffrey's Image Metadata Viewer",
+    "url": "https://exif.regex.info/exif.cgi",
+    "desc": "просмотр EXIF онлайн"
+   },
+   {
+    "name": "ExifTool",
+    "url": "https://exiftool.org",
+    "desc": "эталонный инструмент для метаданных"
+   },
+   {
+    "name": "Metadata2Go",
+    "url": "https://www.metadata2go.com",
+    "desc": "метаданные файлов онлайн"
+   },
+   {
+    "name": "Pic2Map",
+    "url": "https://www.pic2map.com",
+    "desc": "показывает место съёмки по EXIF"
+   },
+   {
+    "name": "FotoForensics",
+    "url": "https://fotoforensics.com",
+    "desc": "анализ ELA и признаков правки"
+   },
+   {
+    "name": "Forensically",
+    "url": "https://29a.ch/photo-forensics/",
+    "desc": "набор фото-форензик инструментов"
+   },
+   {
+    "name": "Ghiro",
+    "url": "https://www.getghiro.org",
+    "desc": "автоматический анализ изображений"
+   },
+   {
+    "name": "Sherloq",
+    "url": "https://github.com/GuidoBartoli/sherloq",
+    "desc": "открытый набор для анализа изображений"
+   },
+   {
+    "name": "Image Verification Assistant",
+    "url": "https://reveal-mklab.iti.gr/reveal/",
+    "desc": "проверка изображений на подделку"
+   },
+   {
+    "name": "InVID-WeVerify",
+    "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/",
+    "desc": "плагин для проверки видео и фото"
+   },
+   {
+    "name": "Citizen Evidence Lab",
+    "url": "https://citizenevidence.org",
+    "desc": "инструменты и гайды по проверке видео"
+   },
+   {
+    "name": "Hive Moderation",
+    "url": "https://hivemoderation.com",
+    "desc": "детектор ИИ-контента"
+   },
+   {
+    "name": "AI or Not",
+    "url": "https://www.aiornot.com",
+    "desc": "детектор ИИ-изображений"
+   },
+   {
+    "name": "Content Credentials Verify",
+    "url": "https://contentcredentials.org/verify",
+    "desc": "проверка происхождения медиа (C2PA)"
+   },
+   {
+    "name": "Archive.today",
+    "url": "https://archive.ph",
+    "desc": "снимки страниц"
+   },
+   {
+    "name": "Wayback Machine",
+    "url": "https://web.archive.org",
+    "desc": "архив интернета"
+   },
+   {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org",
+    "desc": "открытые медиафайлы с метаданными"
+   },
+   {
+    "name": "Flickr",
+    "url": "https://www.flickr.com",
+    "desc": "фотохостинг с геотегами"
+   },
+   {
+    "name": "Snopes",
+    "url": "https://www.snopes.com",
+    "desc": "проверка фактов и слухов"
+   },
+   {
+    "name": "AFP Fact Check",
+    "url": "https://factcheck.afp.com",
+    "desc": "фактчекинг AFP"
+   },
+   {
+    "name": "Google Fact Check Explorer",
+    "url": "https://toolbox.google.com/factcheck/explorer",
+    "desc": "поиск по проверкам фактов"
+   },
+   {
+    "name": "Bellingcat",
+    "url": "https://www.bellingcat.com",
+    "desc": "методики и гайды по открытой разведке"
+   },
+   {
+    "name": "Bellingcat Online Investigation Toolkit",
+    "url": "https://bellingcat.gitbook.io/toolkit",
+    "desc": "каталог инструментов Bellingcat"
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "title": "Соцсети и публичные публикации",
+  "description": "Поиск и аналитика по открытым постам, каналам, хэштегам и упоминаниям",
+  "tools": [
+   {
+    "name": "Social Searcher",
+    "url": "https://www.social-searcher.com",
+    "desc": "поиск публичных постов по соцсетям"
+   },
+   {
+    "name": "Google Alerts",
+    "url": "https://www.google.com/alerts",
+    "desc": "уведомления об упоминаниях"
+   },
+   {
+    "name": "Mention",
+    "url": "https://mention.com",
+    "desc": "мониторинг упоминаний"
+   },
+   {
+    "name": "Talkwalker Alerts",
+    "url": "https://www.talkwalker.com/alerts",
+    "desc": "бесплатные оповещения об упоминаниях"
+   },
+   {
+    "name": "Brand24",
+    "url": "https://brand24.com",
+    "desc": "мониторинг упоминаний"
+   },
+   {
+    "name": "BuzzSumo",
+    "url": "https://buzzsumo.com",
+    "desc": "популярный контент и упоминания"
+   },
+   {
+    "name": "Social Blade",
+    "url": "https://socialblade.com",
+    "desc": "статистика каналов YouTube/Twitch и др."
+   },
+   {
+    "name": "TGStat",
+    "url": "https://tgstat.com",
+    "desc": "аналитика публичных Telegram-каналов"
+   },
+   {
+    "name": "Telemetr",
+    "url": "https://telemetr.io",
+    "desc": "аналитика Telegram-каналов"
+   },
+   {
+    "name": "Lyzem",
+    "url": "https://lyzem.com",
+    "desc": "поиск по публичным Telegram-каналам"
+   },
+   {
+    "name": "Combot",
+    "url": "https://combot.org",
+    "desc": "аналитика публичных Telegram-чатов"
+   },
+   {
+    "name": "Popsters",
+    "url": "https://popsters.ru",
+    "desc": "аналитика публичных страниц соцсетей"
+   },
+   {
+    "name": "LiveDune",
+    "url": "https://livedune.com",
+    "desc": "аналитика соцсетей"
+   },
+   {
+    "name": "Brand Analytics",
+    "url": "https://br-analytics.ru",
+    "desc": "мониторинг соцсетей и СМИ (РФ)"
+   },
+   {
+    "name": "YouScan",
+    "url": "https://youscan.io",
+    "desc": "мониторинг соцмедиа"
+   },
+   {
+    "name": "IQBuzz",
+    "url": "https://iqbuzz.pro",
+    "desc": "мониторинг соцсетей"
+   },
+   {
+    "name": "Camas Reddit Search",
+    "url": "https://camas.unddit.com",
+    "desc": "поиск по постам и комментариям Reddit"
+   },
+   {
+    "name": "PullPush",
+    "url": "https://pullpush.io",
+    "desc": "архив публичных постов Reddit"
+   },
+   {
+    "name": "X Advanced Search",
+    "url": "https://x.com/search-advanced",
+    "desc": "расширенный поиск по постам X"
+   },
+   {
+    "name": "Tweet Binder",
+    "url": "https://www.tweetbinder.com",
+    "desc": "аналитика хэштегов и постов"
+   },
+   {
+    "name": "Hoaxy",
+    "url": "https://hoaxy.iuni.iu.edu",
+    "desc": "распространение информации в соцсетях"
+   },
+   {
+    "name": "Bluesky Search",
+    "url": "https://bsky.app/search",
+    "desc": "поиск по публичным постам Bluesky"
+   },
+   {
+    "name": "Hashtagify",
+    "url": "https://hashtagify.me",
+    "desc": "аналитика хэштегов"
+   },
+   {
+    "name": "Google Trends",
+    "url": "https://trends.google.com",
+    "desc": "динамика интереса к темам"
+   },
+   {
+    "name": "Яндекс Вордстат",
+    "url": "https://wordstat.yandex.ru",
+    "desc": "статистика поисковых запросов"
+   },
+   {
+    "name": "YouTube Search",
+    "url": "https://www.youtube.com",
+    "desc": "поиск по публичным видео и каналам"
+   },
+   {
+    "name": "VK: поиск",
+    "url": "https://vk.com/search",
+    "desc": "поиск по публичному контенту ВК"
+   },
+   {
+    "name": "Meta Ad Library",
+    "url": "https://www.facebook.com/ads/library/",
+    "desc": "архив рекламы Meta"
+   },
+   {
+    "name": "Google Ads Transparency Center",
+    "url": "https://adstransparency.google.com",
+    "desc": "архив рекламы Google"
+   },
+   {
+    "name": "TikTok Creative Center",
+    "url": "https://ads.tiktok.com/business/creativecenter",
+    "desc": "тренды и реклама TikTok"
+   },
+   {
+    "name": "Meta Content Library",
+    "url": "https://transparency.meta.com",
+    "desc": "исследовательский доступ к публичному контенту Meta"
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "title": "Компании и реестры",
+  "description": "Юрлица, регистрации, суды, закупки, санкции, патенты и товарные знаки",
+  "tools": [
+   {
+    "name": "OpenCorporates",
+    "url": "https://opencorporates.com",
+    "desc": "крупнейшая открытая база компаний мира"
+   },
+   {
+    "name": "SEC EDGAR",
+    "url": "https://www.sec.gov/edgar",
+    "desc": "отчётность публичных компаний США"
+   },
+   {
+    "name": "Companies House (UK)",
+    "url": "https://find-and-update.company-information.service.gov.uk",
+    "desc": "реестр компаний Великобритании"
+   },
+   {
+    "name": "e-Justice: реестры ЕС",
+    "url": "https://e-justice.europa.eu/489/EN/business_registers",
+    "desc": "портал бизнес-реестров ЕС"
+   },
+   {
+    "name": "OCCRP Aleph",
+    "url": "https://aleph.occrp.org",
+    "desc": "поиск по документам и реестрам расследований"
+   },
+   {
+    "name": "OpenSanctions",
+    "url": "https://www.opensanctions.org",
+    "desc": "санкционные списки и PEP"
+   },
+   {
+    "name": "OFAC Sanctions Search",
+    "url": "https://sanctionssearch.ofac.treas.gov",
+    "desc": "санкционный список США"
+   },
+   {
+    "name": "EU Sanctions Map",
+    "url": "https://www.sanctionsmap.eu",
+    "desc": "санкции ЕС"
+   },
+   {
+    "name": "ICIJ Offshore Leaks",
+    "url": "https://offshoreleaks.icij.org",
+    "desc": "база оффшорных расследований"
+   },
+   {
+    "name": "Open Ownership Register",
+    "url": "https://register.openownership.org",
+    "desc": "бенефициарные владельцы"
+   },
+   {
+    "name": "GLEIF LEI Search",
+    "url": "https://search.gleif.org",
+    "desc": "идентификаторы юрлиц LEI"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org",
+    "desc": "структурированные данные об организациях"
+   },
+   {
+    "name": "ЕГРЮЛ (ФНС)",
+    "url": "https://egrul.nalog.ru",
+    "desc": "официальный реестр юрлиц РФ"
+   },
+   {
+    "name": "Федресурс",
+    "url": "https://fedresurs.ru",
+    "desc": "банкротства и юридически значимые сведения"
+   },
+   {
+    "name": "Картотека арбитражных дел",
+    "url": "https://kad.arbitr.ru",
+    "desc": "арбитражные дела РФ"
+   },
+   {
+    "name": "Госзакупки",
+    "url": "https://zakupki.gov.ru",
+    "desc": "закупки по 44-ФЗ и 223-ФЗ"
+   },
+   {
+    "name": "Rusprofile",
+    "url": "https://www.rusprofile.ru",
+    "desc": "агрегатор данных о компаниях РФ"
+   },
+   {
+    "name": "Checko",
+    "url": "https://checko.ru",
+    "desc": "проверка компаний РФ"
+   },
+   {
+    "name": "List-Org",
+    "url": "https://www.list-org.com",
+    "desc": "справочник компаний РФ"
+   },
+   {
+    "name": "Честный бизнес",
+    "url": "https://zachestnyibiznes.ru",
+    "desc": "проверка контрагентов РФ"
+   },
+   {
+    "name": "ФИПС (Роспатент)",
+    "url": "https://fips.ru",
+    "desc": "патенты и товарные знаки РФ"
+   },
+   {
+    "name": "Google Patents",
+    "url": "https://patents.google.com",
+    "desc": "поиск по патентам"
+   },
+   {
+    "name": "Espacenet",
+    "url": "https://worldwide.espacenet.com",
+    "desc": "патенты мира (EPO)"
+   },
+   {
+    "name": "WIPO PatentScope",
+    "url": "https://patentscope.wipo.int",
+    "desc": "международные патентные заявки"
+   },
+   {
+    "name": "USPTO Patent Public Search",
+    "url": "https://ppubs.uspto.gov",
+    "desc": "патенты США"
+   },
+   {
+    "name": "USPTO Trademark Search",
+    "url": "https://tmsearch.uspto.gov",
+    "desc": "товарные знаки США"
+   },
+   {
+    "name": "EUIPO",
+    "url": "https://euipo.europa.eu",
+    "desc": "товарные знаки и дизайны ЕС"
+   },
+   {
+    "name": "Crunchbase",
+    "url": "https://www.crunchbase.com",
+    "desc": "стартапы, инвестиции"
+   },
+   {
+    "name": "Dun & Bradstreet",
+    "url": "https://www.dnb.com",
+    "desc": "бизнес-профили компаний"
+   },
+   {
+    "name": "LinkedIn: компании",
+    "url": "https://www.linkedin.com/company/",
+    "desc": "публичные страницы компаний"
+   },
+   {
+    "name": "Glassdoor",
+    "url": "https://www.glassdoor.com",
+    "desc": "отзывы и сведения о работодателях"
+   },
+   {
+    "name": "USAspending",
+    "url": "https://www.usaspending.gov",
+    "desc": "госконтракты США"
+   },
+   {
+    "name": "OpenSecrets",
+    "url": "https://www.opensecrets.org",
+    "desc": "финансирование политики США"
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "title": "Документы, дорки и архивы",
+  "description": "Поисковые операторы, код, научные и архивные источники, песочницы для файлов",
+  "tools": [
+   {
+    "name": "Google Advanced Search",
+    "url": "https://www.google.com/advanced_search",
+    "desc": "поисковые операторы Google"
+   },
+   {
+    "name": "Google Hacking Database",
+    "url": "https://www.exploit-db.com/google-hacking-database",
+    "desc": "каталог поисковых дорков"
+   },
+   {
+    "name": "DorkSearch",
+    "url": "https://dorksearch.com",
+    "desc": "конструктор дорков"
+   },
+   {
+    "name": "Wayback Machine",
+    "url": "https://web.archive.org",
+    "desc": "архив веб-страниц"
+   },
+   {
+    "name": "Archive.today",
+    "url": "https://archive.ph",
+    "desc": "снимки страниц"
+   },
+   {
+    "name": "Internet Archive",
+    "url": "https://archive.org",
+    "desc": "книги, видео, ПО, веб-архив"
+   },
+   {
+    "name": "Common Crawl",
+    "url": "https://commoncrawl.org",
+    "desc": "открытый архив обхода веба"
+   },
+   {
+    "name": "grep.app",
+    "url": "https://grep.app",
+    "desc": "поиск по исходному коду на GitHub"
+   },
+   {
+    "name": "GitHub Code Search",
+    "url": "https://github.com/search?type=code",
+    "desc": "поиск по коду GitHub"
+   },
+   {
+    "name": "Searchcode",
+    "url": "https://searchcode.com",
+    "desc": "поиск по исходному коду"
+   },
+   {
+    "name": "Sourcegraph",
+    "url": "https://sourcegraph.com",
+    "desc": "поиск по коду в репозиториях"
+   },
+   {
+    "name": "Google Scholar",
+    "url": "https://scholar.google.com",
+    "desc": "научные публикации"
+   },
+   {
+    "name": "Semantic Scholar",
+    "url": "https://www.semanticscholar.org",
+    "desc": "научные публикации"
+   },
+   {
+    "name": "CORE",
+    "url": "https://core.ac.uk",
+    "desc": "открытые научные статьи"
+   },
+   {
+    "name": "arXiv",
+    "url": "https://arxiv.org",
+    "desc": "препринты"
+   },
+   {
+    "name": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov",
+    "desc": "биомедицинская литература"
+   },
+   {
+    "name": "DocumentCloud",
+    "url": "https://www.documentcloud.org",
+    "desc": "документы журналистских расследований"
+   },
+   {
+    "name": "Scribd",
+    "url": "https://www.scribd.com",
+    "desc": "публичные документы"
+   },
+   {
+    "name": "Library of Congress",
+    "url": "https://www.loc.gov",
+    "desc": "архивы и коллекции"
+   },
+   {
+    "name": "Europeana",
+    "url": "https://www.europeana.eu",
+    "desc": "европейское культурное наследие"
+   },
+   {
+    "name": "Google Books",
+    "url": "https://books.google.com",
+    "desc": "поиск по книгам"
+   },
+   {
+    "name": "HathiTrust",
+    "url": "https://www.hathitrust.org",
+    "desc": "оцифрованные библиотечные фонды"
+   },
+   {
+    "name": "Яндекс",
+    "url": "https://yandex.ru",
+    "desc": "поиск, сильный по рунету"
+   },
+   {
+    "name": "Startpage",
+    "url": "https://www.startpage.com",
+    "desc": "приватный поиск по выдаче Google"
+   },
+   {
+    "name": "Mojeek",
+    "url": "https://www.mojeek.com",
+    "desc": "независимый поисковый индекс"
+   },
+   {
+    "name": "Marginalia Search",
+    "url": "https://marginalia-search.com",
+    "desc": "поиск по небольшим независимым сайтам"
+   },
+   {
+    "name": "SearXNG",
+    "url": "https://searx.space",
+    "desc": "список инстансов метапоиска"
+   },
+   {
+    "name": "FOCA",
+    "url": "https://github.com/ElevenPaths/FOCA",
+    "desc": "извлечение метаданных из документов"
+   },
+   {
+    "name": "Metagoofil",
+    "url": "https://github.com/opsdisks/metagoofil",
+    "desc": "сбор метаданных из публичных документов"
+   },
+   {
+    "name": "Hybrid Analysis",
+    "url": "https://www.hybrid-analysis.com",
+    "desc": "песочница для анализа файлов"
+   },
+   {
+    "name": "ANY.RUN",
+    "url": "https://any.run",
+    "desc": "интерактивная песочница"
+   },
+   {
+    "name": "MalwareBazaar",
+    "url": "https://bazaar.abuse.ch",
+    "desc": "база образцов вредоносов"
+   },
+   {
+    "name": "Joe Sandbox",
+    "url": "https://www.joesandbox.com",
+    "desc": "песочница для анализа файлов"
+   },
+   {
+    "name": "VirusTotal",
+    "url": "https://www.virustotal.com",
+    "desc": "проверка файлов и ссылок"
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "title": "Фреймворки и дистрибутивы OSINT",
+  "description": "Платформы, сборники инструментов, дистрибутивы и ПО для ведения расследований",
+  "tools": [
+   {
+    "name": "OSINT Framework",
+    "url": "https://osintframework.com",
+    "desc": "каталог бесплатных OSINT-ресурсов"
+   },
+   {
+    "name": "IntelTechniques",
+    "url": "https://inteltechniques.com",
+    "desc": "инструменты и методики Майкла Базелла"
+   },
+   {
+    "name": "Bellingcat Toolkit",
+    "url": "https://bellingcat.gitbook.io/toolkit",
+    "desc": "каталог инструментов Bellingcat"
+   },
+   {
+    "name": "start.me OSINT-панели",
+    "url": "https://start.me",
+    "desc": "готовые дашборды ссылок для OSINT"
+   },
+   {
+    "name": "awesome-osint",
+    "url": "https://github.com/jivoi/awesome-osint",
+    "desc": "большой список OSINT-ресурсов"
+   },
+   {
+    "name": "Recon-ng",
+    "url": "https://github.com/lanmaster53/recon-ng",
+    "desc": "фреймворк веб-разведки"
+   },
+   {
+    "name": "SpiderFoot",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "desc": "автоматизация OSINT, 200+ модулей"
+   },
+   {
+    "name": "Maltego",
+    "url": "https://www.maltego.com",
+    "desc": "граф связей и расследования"
+   },
+   {
+    "name": "Lampyre",
+    "url": "https://lampyre.io",
+    "desc": "OSINT-платформа"
+   },
+   {
+    "name": "theHarvester",
+    "url": "https://github.com/laramies/theHarvester",
+    "desc": "сбор хостов, поддоменов из открытых источников"
+   },
+   {
+    "name": "OWASP Amass",
+    "url": "https://github.com/owasp-amass/amass",
+    "desc": "карта поверхности атаки"
+   },
+   {
+    "name": "Photon",
+    "url": "https://github.com/s0md3v/Photon",
+    "desc": "быстрый краулер для сбора URL и данных"
+   },
+   {
+    "name": "Trace Labs OSINT VM",
+    "url": "https://www.tracelabs.org",
+    "desc": "виртуалка с OSINT-инструментами"
+   },
+   {
+    "name": "CSI Linux",
+    "url": "https://csilinux.com",
+    "desc": "дистрибутив для расследований"
+   },
+   {
+    "name": "Kali Linux",
+    "url": "https://www.kali.org",
+    "desc": "дистрибутив для тестирования безопасности"
+   },
+   {
+    "name": "Tsurugi Linux",
+    "url": "https://tsurugi-linux.org",
+    "desc": "дистрибутив для форензики и OSINT"
+   },
+   {
+    "name": "Buscador",
+    "url": "https://inteltechniques.com/buscador/",
+    "desc": "виртуалка OSINT (архивная версия)"
+   },
+   {
+    "name": "Hunchly",
+    "url": "https://www.hunch.ly",
+    "desc": "автоматическая фиксация находок в браузере"
+   },
+   {
+    "name": "Obsidian",
+    "url": "https://obsidian.md",
+    "desc": "заметки с графом связей"
+   },
+   {
+    "name": "Kumu",
+    "url": "https://kumu.io",
+    "desc": "визуализация сетей связей"
+   },
+   {
+    "name": "Gephi",
+    "url": "https://gephi.org",
+    "desc": "анализ и визуализация графов"
+   },
+   {
+    "name": "Cytoscape",
+    "url": "https://cytoscape.org",
+    "desc": "анализ сетевых графов"
+   },
+   {
+    "name": "Mitaka",
+    "url": "https://github.com/ninoseki/mitaka",
+    "desc": "расширение браузера: быстрый поиск IOC"
+   },
+   {
+    "name": "Web-Check",
+    "url": "https://github.com/Lissy93/web-check",
+    "desc": "комплексный анализ сайта (self-hosted)"
+   },
+   {
+    "name": "ArchiveBox",
+    "url": "https://archivebox.io",
+    "desc": "локальный архив страниц"
+   },
+   {
+    "name": "SingleFile",
+    "url": "https://github.com/gildas-lormeau/SingleFile",
+    "desc": "сохранение страницы в один файл"
+   },
+   {
+    "name": "reNgine",
+    "url": "https://github.com/yogeshojha/rengine",
+    "desc": "фреймворк веб-разведки"
+   },
+   {
+    "name": "Osmedeus",
+    "url": "https://github.com/j3ssie/osmedeus",
+    "desc": "автоматизация разведки и сканирования"
+   },
+   {
+    "name": "Sn1per",
+    "url": "https://github.com/1N3/Sn1per",
+    "desc": "платформа разведки и оценки безопасности"
+   },
+   {
+    "name": "ProjectDiscovery",
+    "url": "https://projectdiscovery.io",
+    "desc": "открытые инструменты разведки (httpx, nuclei и др.)"
+   },
+   {
+    "name": "Metabigor",
+    "url": "https://github.com/j3ssie/metabigor",
+    "desc": "OSINT без API-ключей"
+   },
+   {
+    "name": "Awesome OSINT For Everything",
+    "url": "https://github.com/Astrosp/Awesome-OSINT-For-Everything",
+    "desc": "обширная подборка OSINT-ресурсов"
+   },
+   {
+    "name": "OSINT Combine",
+    "url": "https://www.osintcombine.com",
+    "desc": "подборка OSINT-инструментов"
+   },
+   {
+    "name": "Cyber Detective's OSINT Tools",
+    "url": "https://github.com/cipher387/osint_stuff_tool_collection",
+    "desc": "коллекция OSINT-инструментов"
+   }
+  ]
+ }
+]

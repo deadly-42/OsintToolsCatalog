@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osinttoolscatalog"
+version = "1.0.0"
+description = "Каталог OSINT-инструментов (10 категорий, 300+ ссылок) и мини-поиск публичных профилей по нику"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+  "rich>=13.7,<15",
+  "httpx>=0.27,<1",
+]
+
+[project.scripts]
+osintcatalog = "osinttoolscatalog.cli:main"
+osinttoolscatalog = "osinttoolscatalog.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["osinttoolscatalog*"]
+
+[tool.setuptools.package-data]
+osinttoolscatalog = ["data/*.json"]
