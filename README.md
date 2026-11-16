@@ -25,6 +25,9 @@ python -m osinttoolscatalog
 
 ```bash
 python -m osinttoolscatalog
+
+Запустить мини-поиск от разработчика (deadly-42)
+python -m osinttoolscatalog search username (без @)
 ```
 
 Откроется меню: введите цифру от 0 до 10 (0 — выход).
