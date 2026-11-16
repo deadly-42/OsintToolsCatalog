@@ -5,7 +5,20 @@
 ## Установка
 
 ```bash
+Способ 1: 
+
+pip install git
 python -m pip install .
+python -m pip install git+https://github.com/deadly-42/OsintToolsCatalog.git
+python -m osinttoolscatalog
+
+Способ 2:
+
+pip install git
+git clone https://github.com/deadly-42/OsintToolsCatalog.git
+cd OsintToolsCatalog
+python -m pip install .
+python -m osinttoolscatalog
 ```
 
 ## Запуск (главное меню)
