@@ -11,7 +11,7 @@ python -m pip install .
 ## Запуск
 
 ```bash
-osintcatalog
+python -m osinttoolscatalog
 ```
 
 Меню: введите цифру от 0 до 10.
@@ -33,13 +33,13 @@ osintcatalog
 ## Команды
 
 ```bash
-osintcatalog list                 # список категорий
-osintcatalog list 3               # инструменты категории 3
-osintcatalog search ник           # мини-поиск по нику (127 сайтов)
-osintcatalog search ник --details --all -o results.json
-osintcatalog check-links          # проверить, что ссылки каталога живы
-osintcatalog check-links 5
-osintcatalog version
+python -m osinttoolscatalog list                 # список категорий
+python -m osinttoolscatalog list 3               # инструменты категории 3
+python -m osinttoolscatalog search ник           # мини-поиск по нику (127 сайтов)
+python -m osinttoolscatalog search ник --details --all -o results.json
+python -m osinttoolscatalog check-links          # проверить, что ссылки каталога живы
+python -m osinttoolscatalog check-links 5
+python -m osinttoolscatalog version
 ```
 
 В конце `search` выводится итог: в скольких источниках аккаунт найден, в скольких не найден и по скольким определить не удалось (защита сайта, лимиты, сеть). Находки по умолчанию перепроверяются случайным несуществующим ником, чтобы отсечь сайты, которые отвечают «найден» на любой ник (`--no-verify` отключает).
